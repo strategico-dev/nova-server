@@ -13,10 +13,150 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\Server">
+      <UniqueIdentifier>{430770bc-a29a-477b-8da7-8997cb070d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Server\WSA">
+      <UniqueIdentifier>{ba3bc47d-08b8-49f8-a62b-f76827b6f953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Server\Includes">
+      <UniqueIdentifier>{9d137b50-9a20-46bd-b89d-d436852afda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Server\Socket">
+      <UniqueIdentifier>{10757937-a01a-4143-9657-b11f6d022252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\TinyXML">
+      <UniqueIdentifier>{8debabdc-69b6-4717-b6ca-0c91a93a1716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Server\HTTP">
+      <UniqueIdentifier>{724d5818-54a8-4822-a98a-5afb6b86f2ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Server\Parsers">
+      <UniqueIdentifier>{676ed08a-0360-4247-ab98-11d4f4a93e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Server\Config">
+      <UniqueIdentifier>{7604be4f-a7fd-4fde-b117-92e7aac2a58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Server\File">
+      <UniqueIdentifier>{f64606ad-cb60-4e37-b92d-d9ae5df351a3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Server\WSA\WSA.cpp">
+      <Filter>Исходные файлы\Server\WSA</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\WSA\WSAInit.cpp">
+      <Filter>Исходные файлы\Server\WSA</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\Socket\ServerSocket.cpp">
+      <Filter>Исходные файлы\Server\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\Socket\Socket.cpp">
+      <Filter>Исходные файлы\Server\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\Socket\Address.cpp">
+      <Filter>Исходные файлы\Server\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\Server.cpp">
+      <Filter>Исходные файлы\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\Socket\ClientSocket.cpp">
+      <Filter>Исходные файлы\Server\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>Исходные файлы\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>Исходные файлы\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>Исходные файлы\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>Исходные файлы\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\HTTP\Request.cpp">
+      <Filter>Исходные файлы\Server\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\Parsers\RequestParser.cpp">
+      <Filter>Исходные файлы\Server\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\Config\Config.cpp">
+      <Filter>Исходные файлы\Server\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\Parsers\ConfigParser.cpp">
+      <Filter>Исходные файлы\Server\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\HTTP\Resource.cpp">
+      <Filter>Исходные файлы\Server\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\HTTP\Response.cpp">
+      <Filter>Исходные файлы\Server\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\HTTP\HTTPStatuses.cpp">
+      <Filter>Исходные файлы\Server\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\File\File.cpp">
+      <Filter>Исходные файлы\Server\File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server\WSA\WSA.hpp">
+      <Filter>Исходные файлы\Server\WSA</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\WSA\WSAInit.hpp">
+      <Filter>Исходные файлы\Server\WSA</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\Includes\WinSocket.inc.hpp">
+      <Filter>Исходные файлы\Server\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\Socket\ServerSocket.hpp">
+      <Filter>Исходные файлы\Server\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\Socket\Socket.hpp">
+      <Filter>Исходные файлы\Server\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\Socket\Address.hpp">
+      <Filter>Исходные файлы\Server\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\Server.hpp">
+      <Filter>Исходные файлы\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\Socket\ClientSocket.hpp">
+      <Filter>Исходные файлы\Server\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>Исходные файлы\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>Исходные файлы\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\HTTP\Request.hpp">
+      <Filter>Исходные файлы\Server\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\Parsers\RequestParser.hpp">
+      <Filter>Исходные файлы\Server\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\Config\Config.hpp">
+      <Filter>Исходные файлы\Server\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\Parsers\ConfigParser.hpp">
+      <Filter>Исходные файлы\Server\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\HTTP\Resource.hpp">
+      <Filter>Исходные файлы\Server\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\HTTP\Response.hpp">
+      <Filter>Исходные файлы\Server\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\HTTP\HTTPStatuses.hpp">
+      <Filter>Исходные файлы\Server\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Server\File\File.hpp">
+      <Filter>Исходные файлы\Server\File</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\Projects\nova-server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -102,6 +103,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\Projects\nova-server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -140,6 +142,45 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Server\Config\Config.cpp" />
+    <ClCompile Include="Server\File\File.cpp" />
+    <ClCompile Include="Server\HTTP\HTTPStatuses.cpp" />
+    <ClCompile Include="Server\HTTP\Request.cpp" />
+    <ClCompile Include="Server\HTTP\Resource.cpp" />
+    <ClCompile Include="Server\HTTP\Response.cpp" />
+    <ClCompile Include="Server\Parsers\ConfigParser.cpp" />
+    <ClCompile Include="Server\Parsers\RequestParser.cpp" />
+    <ClCompile Include="Server\Server.cpp" />
+    <ClCompile Include="Server\Socket\Address.cpp" />
+    <ClCompile Include="Server\Socket\ClientSocket.cpp" />
+    <ClCompile Include="Server\Socket\ServerSocket.cpp" />
+    <ClCompile Include="Server\Socket\Socket.cpp" />
+    <ClCompile Include="Server\WSA\WSA.cpp" />
+    <ClCompile Include="Server\WSA\WSAInit.cpp" />
+    <ClCompile Include="TinyXML\tinystr.cpp" />
+    <ClCompile Include="TinyXML\tinyxml.cpp" />
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp" />
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server\Config\Config.hpp" />
+    <ClInclude Include="Server\File\File.hpp" />
+    <ClInclude Include="Server\HTTP\HTTPStatuses.hpp" />
+    <ClInclude Include="Server\HTTP\Request.hpp" />
+    <ClInclude Include="Server\HTTP\Resource.hpp" />
+    <ClInclude Include="Server\HTTP\Response.hpp" />
+    <ClInclude Include="Server\Includes\WinSocket.inc.hpp" />
+    <ClInclude Include="Server\Parsers\ConfigParser.hpp" />
+    <ClInclude Include="Server\Parsers\RequestParser.hpp" />
+    <ClInclude Include="Server\Server.hpp" />
+    <ClInclude Include="Server\Socket\Address.hpp" />
+    <ClInclude Include="Server\Socket\ClientSocket.hpp" />
+    <ClInclude Include="Server\Socket\ServerSocket.hpp" />
+    <ClInclude Include="Server\Socket\Socket.hpp" />
+    <ClInclude Include="Server\WSA\WSA.hpp" />
+    <ClInclude Include="Server\WSA\WSAInit.hpp" />
+    <ClInclude Include="TinyXML\tinystr.h" />
+    <ClInclude Include="TinyXML\tinyxml.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
