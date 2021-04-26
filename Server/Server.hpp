@@ -1,5 +1,6 @@
 #pragma once
 
+#include <thread>
 #include <iostream>
 
 #include <Server/WSA/WSA.hpp>
@@ -15,6 +16,8 @@ namespace Server
 	{
 	private:
 		ServerSocket serverSocket;
+
+		void handle(ClientSocket* clientSocket);
 	public:
 		Server();
 		~Server();
